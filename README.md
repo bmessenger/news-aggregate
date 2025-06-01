@@ -2,8 +2,8 @@
 
 This WordPress ACF/Gutenburg Block displays news feeds from two sources:
 
-1. **Medium RSS Feed** – Pulls and displays the latest articles from several Medium publications using a WordPress shortcode. **(/inc/medium-rss-shortcode.php)**
-2. **Local News Feed** – Periodically polls a local endpoint (on the same server) for news via a `getJSON` jQuery call and updates the content on the page dynamically. **(/blocks/js/news-press-tabbed.js)**
+1. **Medium RSS Feed** – Pulls and displays the latest articles from several Medium publications using a WordPress shortcode. `/inc/medium-rss-shortcode.php`
+2. **Local News Feed** – Periodically polls a local endpoint (on the same server) for news via a `getJSON` jQuery call and updates the content on the page dynamically. `/blocks/js/news-press-tabbed.js`
 
 ## Features
 
@@ -21,6 +21,6 @@ Using a Shortcode provides a clean and reusable way to pull Medium feeds from mu
 
 ### Sample Usage
 
-**Template File** - **(/blocks/news-press-tabbed.php)**
+**Template File** - `/blocks/news-press-tabbed.php`
 
 **Shortcode Example** - [medium handle="atmosxyz" num_posts="9" interval="21600"]
